@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+html,body{
+     color: #333333;
+  background-color: #f9f9f9;
+}
+
+:root {
+  --primary-color: #3572EF;
+  --text-main-color: #333333;
+  --text-secondary-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 3em;
+  height: 5vh;
+}
+
+.brand-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.brand-name span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color, blue);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  background-color: rgb(236, 235, 235);
+  gap: 3vw;
+  padding: 0.5em 3.5em;
+  border-radius: 100px;
+}
+.nav-links li {
+  padding: 0.4em;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.nav-links li:hover {
+  transform: translateY(-5px);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--text-main-color);
+}
+
+.contact-btn {
+  background-color: var(--primary-color, red);
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: blue;
+}
