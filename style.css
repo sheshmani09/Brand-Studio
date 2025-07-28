@@ -71,3 +71,171 @@ a {
 .contact-btn:hover {
   background-color: blue;
 }
+
+  /* hero-section */
+  
+.hero-section {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1,
+.text2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.text1 span,
+.text2 span{
+    color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.hero-section p{
+    margin: 0.5em 0em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-section p span{
+    color: var(--primary-color);
+}
+
+.btn{
+    margin: 1em;
+}
+
+.btn-1{
+    background-color: var(--primary-color, red);
+  color: white;
+  font-weight: bold;
+  padding: 0.5em 1.5em;
+  margin: 0 2em;
+  border-radius: 100px;
+  border: none;
+  transition: background-color 0.3s ease-in;
+}
+.btn-1:hover{
+  transform: scale(1.05);
+  background-color: blue;
+}
+
+.btn-2{
+    background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 0.5em 2em;
+  border-radius: 100px;
+  border: 2px solid var(--primary-color);
+   transition:  background-color 0.3s ease-out;
+}
+.btn-2:hover{
+  transform: scale(1.05);
+  background-color: blue;
+  color:#f9f9f9;
+}
+
+
+/* services-section */
+.service-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-1{
+    background-color: rgb(236, 235, 235);
+    color: var(--text-main-color);
+    margin: 2em auto;
+    padding: 0.5em 1.5em;
+    border-radius: 100px;
+    font-size: 1.2rem;
+}
+
+.headings p{
+    text-align: center;
+}
+
+.text3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+.text3 span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.text4{
+    font-weight: bold;
+    margin-top: 0.4em;
+}
+
+.card-services{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3em 5em;
+    margin: 3em 15em;
+    /* align-items: center; */
+}
+.service-card{
+    height: 150px;
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+}
+.service-card:hover{
+    transform: translateY(-10px);
+}
+.service-card h3{
+    padding: 0.6em;
+    text-align: center;
+    color: var(--text-main-color);
+}
+
+.service-card p{
+    padding:0 1em;
+    color: var(--text-main-color);
+}
+
+/* work section */
+/* headings is same as service section */
+
+.cards-work{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3em 5em;
+    margin: 3em 15em;
+}
+
+.work-card{
+    height: 150px;
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+}
+.work-card:hover{
+    transform: translateY(-10px);
+}
+
+/* to do tommorow - add images and style them and remaning things */ 
