@@ -27,6 +27,9 @@ body {
   margin: 1em 3em;
   height: 5vh;
 }
+.menu-icon{
+  display: none;
+}
 
 .brand-name {
   font-size: 2rem;
@@ -91,6 +94,7 @@ a {
   font-weight: bold;
   margin-bottom: 0.2em;
 }
+
 
 .text1 span,
 .text2 span {
@@ -347,11 +351,12 @@ a {
 .promotion-banner{
   display: flex;
   justify-content: center;
+  height:30vh ;
+  margin-bottom: 7em;
 }
 .banner-container{
   width: 70vw;
   height: 30vh;
-  margin-bottom: 7em;
   background: linear-gradient(20deg,#17179f,#009dff,#17179f);
   border-radius: 25px;
   display: flex;
@@ -463,4 +468,117 @@ footer{
   color: #f9f9f9;
   background-color: var(--primary-color);
   padding-bottom: 1em;
+}
+
+
+/* mobile view css  */
+
+@media screen and (max-width:640px) {
+  .nav-links,.contact-btn{
+    display: none;
+  }
+
+  .brand-name, .brand-name span{
+    font-size: 1.5rem;
+  }
+  .navbar{
+    margin: 1em 2em;
+  }
+
+  .menu-icon{
+    display:block ;
+    cursor: pointer;
+  }
+
+  .hero-section{
+    margin: 2em 1em;
+    padding: 2em 0.2em;
+    text-align: center;
+  }
+
+  .text1,
+  .text2,
+  .text1 span,
+  .text2 span{
+    font-size: 1.5rem;
+  }
+
+
+.btn-1, .btn-2{
+  font-size: 0.8rem;
+  margin: 0.3em;
+  padding: 0.5em 1em;
+}
+
+.service-section{
+  padding:0 1em;
+  margin-bottom: 0;
+}
+
+.text3,
+.text3 span {
+  font-size: 1.5rem;
+}
+.text4{
+  font-size: 1rem;
+  padding: 0 0.5em;
+}
+
+.work-section{
+  padding:0 1em;
+}
+
+.card-services{
+  gap: 1em;
+}
+
+.cards-work,.cards-review{
+  margin: 1em;
+  gap: 0em;
+}
+
+.work-card, .review-card{
+  transform: scale(0.8);
+}
+
+.cards-work .card-4,
+.cards-work .card-5,
+.cards-work .card-6{
+  display: none;
+}
+
+.cards-review .card-3{
+  display: none;
+}
+ .promotion-banner{
+  margin-bottom: 4em;
+ } 
+.banner-container{
+  width: 90vw;
+  border-radius: 10px;
+  gap: 0;
+}
+.promotion-text{
+  font-size: 1rem;
+  padding-left: 1.5em;
+}
+.promotion-banner br{
+  display: none;
+}
+.call-btn{
+  padding: 0.5em 1em ;
+  margin-top: -3em;
+}
+footer{
+  gap: 3em;
+}
+.contact-info{
+  text-align: center;
+  margin-right: 1em;
+}
+.social-icons i{
+  padding: 1em;
+}
+
+
 }
