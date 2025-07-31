@@ -576,6 +576,11 @@ footer{
   text-align: center;
   margin-right: 1em;
 }
+
+.social-icons{
+  margin-left: -3em;
+}
+
 .social-icons i{
   padding: 1em;
 }
