@@ -492,6 +492,7 @@ footer{
   }
 
   .hero-section{
+    margin: -3em 0;
     padding: 2em 0.3em;
     text-align: center;
   }
