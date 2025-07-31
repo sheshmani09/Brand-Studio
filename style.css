@@ -491,8 +491,7 @@ footer{
   }
 
   .hero-section{
-    margin: 2em 1em;
-    padding: 2em 0.2em;
+    padding: 2em 0.3em;
     text-align: center;
   }
 
@@ -537,6 +536,9 @@ footer{
   gap: 0em;
 }
 
+.work-card{
+  margin-bottom: -2em;
+}
 .work-card, .review-card{
   transform: scale(0.8);
 }
@@ -547,11 +549,15 @@ footer{
   display: none;
 }
 
+.view-btn button{
+  margin: 2em 2em 1em ;
+}
+
 .cards-review .card-3{
   display: none;
 }
  .promotion-banner{
-  margin-bottom: 4em;
+ margin: 3em 0 4em;
  } 
 .banner-container{
   width: 90vw;
